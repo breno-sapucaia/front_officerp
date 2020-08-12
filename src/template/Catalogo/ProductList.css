@@ -1,0 +1,17 @@
+.title {    
+  font-weight: 600;
+}
+
+.container{
+    margin-top:5px;
+}
+.dropdown-sm
+{
+  padding: .25rem .5rem;
+  font-size: .875rem;
+   border-radius: .2rem;
+}
+.table-responsive{
+ overflow-y: scroll;
+}
+

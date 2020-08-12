@@ -1,0 +1,21 @@
+@media only screen and (max-width:576px){
+    .filter{
+        width: 100vw;
+        height: 100vh;
+        background-color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        transition: all .3s
+              cubic-bezier(0, .52, 0, 1);
+        overflow: scroll;
+        z-index: 1000;   
+    }
+    .filter-open{
+        left: 0vw
+
+    }
+    .filter-closed{
+        left: 100vw;   
+    }
+}
